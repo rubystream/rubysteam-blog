@@ -8,21 +8,38 @@ The purpose is to keep the records of my thoughts organized in articles and othe
 
 The intention is not to state that ideas here are actual wisdom or knowledge the reader should take for granted. Quite the opposite, the main intent is to sparkle the questions in the readers minds so they can find the true value for them selfs on the topics that were interesting to me.
 
-## Build Setup
+## Setup
+
+Make sure to install the dependencies:
 
 ```bash
-# install dependencies
-$ npm install
+# yarn
+yarn install
 
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
+# npm
+npm install
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+## Development Server
+
+Start the development server on http://localhost:3000
+
+```bash
+npm run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+npm run build
+```
+
+Locally preview production build:
+
+```bash
+npm run preview
+```
+
+Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
