@@ -1,11 +1,6 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   css: ['@/assets/css/styles.css'],
-  build: {
-    postcss: {
-      postcssOptions: require('./postcss.config.js'),
-    },
-  },
   app: {
     head: {
       charset: 'utf-8',
@@ -18,6 +13,7 @@ export default defineNuxtConfig({
     }
   },
   modules: [
+    '@nuxtjs/tailwindcss',
     '@nuxt/content'
   ],
   content: {
