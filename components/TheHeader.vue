@@ -3,7 +3,7 @@
     <div class="container mx-auto flex-1 px-4">
       <div class="flex items-center justify-between h-12">
         <div class="flex items-center pr-4">
-          <Logo />
+          <LogoImage />
         </div>
         <div class="flex-1 flex justify-start w-4/6">
           <div class="mx-auto">

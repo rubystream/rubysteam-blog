@@ -1,12 +1,6 @@
-# rubystream-blog
+# Nuxt 3 Minimal Starter
 
-## Summary
-
-This repository represent the content of my **blog**.
-
-The purpose is to keep the records of my thoughts organized in articles and other artifacts. My overall goal is to share my knowledge and experiences with the audience. This is the way intend to return back some of the values that was given to me.
-
-The intention is not to state that ideas here are actual wisdom or knowledge the reader should take for granted. Quite the opposite, the main intent is to sparkle the questions in the readers minds so they can find the true value for them selfs on the topics that were interesting to me.
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
 
@@ -18,6 +12,9 @@ yarn install
 
 # npm
 npm install
+
+# pnpm
+pnpm install --shamefully-hoist
 ```
 
 ## Development Server
@@ -42,4 +39,4 @@ Locally preview production build:
 npm run preview
 ```
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

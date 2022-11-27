@@ -1,22 +1,30 @@
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  css: ['@/assets/css/styles.css'],
+  target: "static",
+  css: ["@/assets/css/styles.css"],
   app: {
     head: {
-      charset: 'utf-8',
-      viewport: 'width=device-width, initial-scale=1',
-      title: 'Rubystream\'s blog',
+      charset: "utf-8",
+      viewport: "width=device-width, initial-scale=1",
+      title: 'Rubystream"s blog',
       meta: [
         // <meta name="description" content="My amazing site">
-        { name: 'description', content: 'Rubystream\'s personal blog.' }
-      ]
-    }
+        { name: "description", content: "Rubystream's personal blog." },
+      ],
+    },
   },
-  modules: [
-    '@nuxtjs/tailwindcss',
-    '@nuxt/content'
-  ],
-  content: {
-    // https://content.nuxtjs.org/api/configuration
-  }
-})
+  modules: ["@nuxt/content", "@nuxtjs/tailwindcss"],
+  tailwindcss: {
+    config: {
+      /* Extend the Tailwind config here */
+      content: [
+        "@/assets/css/styles.css",
+        "@/components/**/*.{js,vue,ts}",
+        "@/layouts/**/*.vue",
+        "@/pages/**/*.vue",
+        "@/plugins/**/*.{js,ts}",
+        "@/content/**/*.md",
+      ],
+    },
+  },
+});
