@@ -1,0 +1,1 @@
+import{K as e,o as t,b as o,e as s}from"./entry.3ad1dd05.js";const c={},r={class:"mt-auto py-1 bg-gray-200 text-gray-400"},_=s("div",{class:"w-full text-center"},"\xA9 rubystream 2022",-1),a=[_];function n(d,f){return t(),o("footer",r,a)}const i=e(c,[["render",n]]);export{i as default};
