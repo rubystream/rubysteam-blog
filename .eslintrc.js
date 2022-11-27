@@ -1,22 +1,29 @@
 module.exports = {
-  root: true,
   env: {
     browser: true,
     node: true,
+    es2021: true,
   },
+  extends: [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:nuxt/recommended",
+    "plugin:vue/vue3-essential",
+    "plugin:prettier/recommended",
+  ],
+  overrides: [],
+  parser: "vue-eslint-parser",
   parserOptions: {
-    parser: '@babel/eslint-parser',
-    requireConfigFile: false,
+    parser: "@typescript-eslint/parser",
+    ecmaVersion: "latest",
+    sourceType: "module",
   },
-  extends: ['@nuxtjs', 'plugin:nuxt/recommended', 'prettier'],
-  plugins: [],
-  // add your custom rules here
+  plugins: ["vue", "@typescript-eslint"],
   rules: {
-    'vue/multi-word-component-names': [
-      'error',
+    "vue/multi-word-component-names": [
+      "error",
       {
-        ignores: ['default'],
+        ignores: ["default", "index", "Alert"],
       },
     ],
   },
-}
+};
