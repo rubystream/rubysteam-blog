@@ -1,1 +1,0 @@
-import _ from"./TheHeader.4e84c2a6.js";import{K as c,o as r,b as s,f as o,N as a}from"./entry.3ad1dd05.js";import m from"./TheFooter.f03295b3.js";import"./LogoImage.4b9e4ce1.js";const p={},f={class:"flex flex-col h-screen"};function l(x,d){const e=_,t=a,n=m;return r(),s("div",f,[o(e),o(t),o(n)])}const k=c(p,[["render",l]]);export{k as default};
