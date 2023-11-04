@@ -1,10 +1,8 @@
 ---
 title: Home Page
-description: The Hope Page of Rubystream's blog
+desciption: Rubystream Blog
 ---
 
-::alert{type="warning"}
-TODO: This is still in the construction !!!
-::
 
-[Welcome]{.text-6xl} to my blog builded on [Nuxt](https://nuxt.com/) **v3** version.
+[Welcome]{.text-6xl} to my blog build on Nuxt v3 version.
+
